@@ -38,7 +38,7 @@ import org.testng.annotations.Test;
             wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
         }
 
-        public static void main(String args[]){
+        public static void main(String[] args){
             SaveAndDeleteTest test = new SaveAndDeleteTest();
             test.setUp();
             test.testSaveEntry();
